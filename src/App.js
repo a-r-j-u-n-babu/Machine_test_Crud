@@ -7,9 +7,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div>
-      <div>
-        <h2 style={{textAlign:"center"}}>User Listing</h2>
-      </div>
       <CreateUser />
       <UserList />
     </div>

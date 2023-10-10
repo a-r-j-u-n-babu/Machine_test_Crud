@@ -70,7 +70,7 @@ function AddUser() {
               onChange={handleChange}
             />
             <br />
-            <Button type="submit">Create</Button>
+            <Button style={{float:"right"}} type="submit">Create</Button>
           </form>
         </Modal.Body>
       </Modal>

@@ -36,8 +36,11 @@ const UserList = () => {
 
   return (
     <div>
-          <Input
-        style={{width:"25%"}}
+      <div>
+        <h2 style={{ textAlign: "center" }}>User Listing</h2>
+      </div>
+      <Input
+        style={{ width: "15%" }}
         className="m-4"
         type="text"
         placeholder="Search by email"
